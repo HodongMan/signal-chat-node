@@ -6,7 +6,7 @@ import { Message } from './models/message';
 
 export class ChatServer {
 
-    public static readonly PORT: number = 7000;
+    public static readonly PORT: number = 9000;
     private app: express.Application;
     private server: Server;
     private io: socketIO.Server;
